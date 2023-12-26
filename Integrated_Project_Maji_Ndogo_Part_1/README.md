@@ -12,7 +12,7 @@ Maji Ndogo grapples with water accessibility problems, motivating this project t
 - Explore Maji Ndogo's 60,000-record database through SQL queries.
 - Uncover potential insights, identify patterns, address issues, and drive data-powered solutions following President Naledi's directive.
 
-## Structure:
+## Schema Overview:
 ### Available Tables:
 - employee
 - global_water_access
