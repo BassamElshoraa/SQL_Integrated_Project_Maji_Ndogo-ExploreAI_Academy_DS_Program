@@ -1,48 +1,72 @@
-# The_Movie_Database--ExploreAI_Academy_DS_Program
-# Movie Database and SQL Queries - Explore AI for Data Science Project
+# Restoring the Lifeblood of Maji Ndogo
 
 
-## Database Description
+## Overview:
+This project addresses the pressing water crisis faced by Maji Ndogo, a fictitious city, using comprehensive SQL analysis. It focuses on leveraging data-driven solutions to understand water access issues, assess water quality, and propose strategies for improvement.
 
-This project centers around a movie database containing comprehensive information about movies, including details such as titles, release dates, actors, genres, awards, and more.
+## Introduction:
+Maji Ndogo grapples with water accessibility problems, motivating this project to utilize SQL analysis for impactful solutions. The dataset collected from various sources forms the basis for our investigation.
 
-### Schema Overview
+## Explore Maji Ndogo's Database:
+### Unveiling Insights through SQL:
+- Explore Maji Ndogo's 60,000-record database through SQL queries.
+- Uncover potential insights, identify patterns, address issues, and drive data-powered solutions following President Naledi's directive.
 
-The database consists of several tables, including:
+## Structure:
+### Available Tables:
+- employee
+- global_water_access
+- location
+- visits
+- water_quality
+- water_source
+- well_pollution
 
-- Movies: Contains information about movies, such as titles, release dates, genres, and keywords.
-- Oscars: Includes details about Oscar awards, nominees, categories, and winners.
-- Actors: Holds information about actors, their names, genders, and roles in movies.
-- Production Companies: Contains data about movie production companies, budgets, and popularity scores.
-- Languages: Information regarding languages spoken in movies.
-- Genres: Details about different genres attributed to movies.
-- Keywords: Keywords associated with movies for search and categorization.
-- Casts: Information about movie casts and their roles.
-- Production Countries: Data about countries where movies were produced.
+## Queries and Analysis:
+### SQL Query Samples:
+- Step-by-step breakdown of crucial SQL queries used in the project.
+- Queries include assessments of water sources, quality evaluations, pollution analysis, and employee data extractions.
 
-The structure of each table encompasses various fields related to the respective entity, enabling comprehensive analysis of the movie industry.
+## Integrated Project Questions:
+### Overview of Project Queries:
+- Detailed listing of project-related questions with corresponding SQL queries.
+- Addressing issues such as employee details, water source analysis, population assessment, and anomaly detection.
 
-## Answered Questions
+## Instructions for Use:
+### Guidelines for Contributors and Users:
+- Instructions for setting up the project environment and database.
+- Guidance on executing SQL queries, understanding dataset nuances, and contributing to the project.
 
-The SQL queries provided in this project were designed to assess proficiency in querying the movie database. Each question targeted specific information retrieval or analysis.
+## Answered Queries:
 
-### Question Summary
+### 1. Address of Bello Azibo:
+- Utilized SQL to extract the address of Bello Azibo from the employee records.
 
-1. **Actor in a Leading Role (2015 Oscar):** Query to find the winner of the "Actor in a Leading Role" Oscar in 2015.
-2. **Oldest Movies Query:** Retrieve the ten oldest movies in the database.
-3. **Unique Awards Count:** Count of unique awards listed in the Oscars table.
-4. **Movies with 'Spider' in Title:** Number of movies containing the word "Spider" in their titles.
-5. **Thriller Genre and 'Love' in Keywords:** Count of movies in the "Thriller" genre with "love" in their keywords.
-6. **Movies Released within Specific Criteria:** Count of movies released between specific dates with certain popularity and budget criteria.
-7. **Unique Characters Played by 'Vin Diesel':** Number of unique characters played by the actor Vin Diesel.
-8. **Genres of 'The Royal Tenenbaums':** Query to retrieve the genres of the movie "The Royal Tenenbaums."
-9. **Top Three Production Companies by Average Popularity Score:** Identify the top three production companies based on average movie popularity scores.
-10. **Female Actors with 'N' Starting Name:** Count of female actors with names starting with the letter "N."
-11. **Genre with Lowest Movie Popularity Score Average:** Determine the genre with the lowest average movie popularity score.
-12. **Award Category with Highest Actor Nominations:** Identify the award category with the most actor nominations (male or female).
-13. **Updating Year Format in Oscars Table:** SQL code to update the year format in the Oscars table for entries before 1934.
-14. **View Creation for Alan Rickman Movies:** Query to create a view showcasing movie titles, release dates, taglines, and overviews for movies featuring Alan Rickman.
+### 2. Microbiologist's Name and Phone Number:
+- Executed a SQL query to retrieve the name and phone number of the Microbiologist from the employee data.
 
----
+### 3. Water Source Shared by Most People (source_id):
+- Employed comparison operators in SQL to identify the water source shared by the highest number of individuals.
 
-This project was completed as part of the "Explore AI for Data Science" course, demonstrating proficiency in SQL querying for comprehensive data analysis within the movie industry context
+### 4. Population of Maji Ndogo:
+- Searched the data_dictionary table via SQL to find the population count of Maji Ndogo.
+
+### 5. SQL Query for Employees - Civil Engineers in Dahabu or on an Avenue:
+- Constructed a query to extract details of Civil Engineer employees residing in Dahabu or living on an avenue.
+
+### 6. Identifying Potentially Suspicious Field Workers:
+- Formulated a SQL query based on provided criteria to identify suspicious Field Surveyors.
+
+### 7. Query Result Assessment:
+- Analyzed and described the outcome of a specific SQL query, elucidating the nature of the result set.
+
+### 8. Identifying Records with Quality Score 10, Visited More Than Once:
+- Built a query to isolate records with a quality score of 10 that have been visited multiple times.
+
+### 9. Correcting Employee's Phone Number (Bello Azibo):
+- Executed a SQL query to update Bello Azibo's phone number without causing issues in the employee table.
+
+### 10. Count of Data Rows Returned by a Specific Query:
+- Evaluated the number of rows returned by a given SQL query.
+
+These SQL queries have been instrumental in extracting specific information, addressing data inconsistencies, and providing insights into various aspects related to the water crisis in Maji Ndogo.
